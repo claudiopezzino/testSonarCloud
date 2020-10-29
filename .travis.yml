@@ -3,9 +3,10 @@ jdk:
 - openjdk11
 
 addons: 
-sonarcloud:
-organization: claudiopezzino
-token: dbced5ffd835b47e186ce822874a68a35540e309
+  sonarcloud:
+    organization: claudiopezzino
+    token: 
+      secure: dbced5ffd835b47e186ce822874a68a35540e309
 
 script:
 - ant build
