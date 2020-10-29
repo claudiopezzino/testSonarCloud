@@ -1,4 +1,5 @@
-language: java jdk:
+language: 
+java jdk:
 - openjdk11
 addons: sonarcloud:
 organization: "claudiopezzino"
