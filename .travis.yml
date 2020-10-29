@@ -5,8 +5,7 @@ jdk:
 addons: 
   sonarcloud:
     organization: "claudiopezzino"
-    token: 
-      secure: "719230284f11175648d1883d498a0ab0c6f24d68"
+    token: ${719230284f11175648d1883d498a0ab0c6f24d68c}
 
 script:
 - ant build
